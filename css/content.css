@@ -1,0 +1,736 @@
+p{
+font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: Italic;
+}
+
+.firstblock{
+    width: 100%;
+    height: 94vw;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.anim1{
+    width: 100%;
+    height: 27.43vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+
+.sheeptext{
+    width: 70vw;
+    height: 27.43vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sheep_head{
+    width: 29.1vw;
+    height: 27.43vw;
+    background-color: #2AA185;
+    display: flex;
+    justify-content: center;
+}
+
+.sheep_head img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text1{
+    width: 34.03vw;
+    height: 14.5vw;
+    top: 14.5vw;
+    left: 41vw;
+    position: absolute;
+    z-index: 1001;
+    transform: rotate(-8deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.text1 p{
+    color: #F25CC0;
+    font-size: 2vw;
+    margin-top: 3.6vw;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text1:hover{
+    transform: rotate(8deg);
+}
+.anim2{
+    width: 100%;
+    height: 66.53vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.anim2_1{
+    width: 59.24vw;
+    height: 66.53vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.number{
+    width: 19.24vw;
+    height: 13.54vw;
+    margin-top: 10vw;
+    margin-left: 20vw;
+}
+.number img{
+    width: 100%;
+}
+
+.text2{
+    width: 29.44vw;
+    height: 12.15vw;
+    top: 21.5vw;
+    left: 32vw;
+    position: absolute;
+    z-index: 1000;
+    transform: rotate(7deg);
+    background-image: url(../img/plashka2.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.text2 p{
+    color: #2AA185;
+    font-size: 1.53vw;
+    margin-top: 4vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text2:hover{
+    transform: rotate(-7deg);
+}
+
+/* пазл из овцы */
+.puzzle{
+    width: 59.24vw;
+    height: 31.74vw;
+    background-image: url(../img/fon1.svg);
+    background-size: 100%;
+    z-index: 1000;
+}
+.puzzleplay{
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    top: 3.43vw;
+    left: 5.9vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.pzl_1{
+    width: 12.50vw;
+    height: 12.50vw;
+}
+.pzl_1 img{
+    width: 12.50vw;
+    height: 12.50vw;
+}
+.pzl_2{
+    width: 12.50vw;
+    height: 12.50vw;
+}
+.pzl_2 img{
+    width: 12.50vw;
+    height: 12.50vw;
+}
+.pzl_3{
+    width: 12.50vw;
+    height: 12.50vw;
+}
+.pzl_3 img{
+    width: 12.50vw;
+    height: 12.50vw;
+}
+.pzl_4{
+    width: 12.50vw;
+    height: 12.50vw;
+}
+.pzl_4 img{
+    width: 12.50vw;
+    height: 12.50vw;
+}
+
+
+/* мини игра где много овец */
+.counting_sheep{
+    width: 59.24vw;
+    height: 34.79vw;
+    background-color: #F7ADF8;
+    z-index: 2;
+}
+.sheep1, .sheep2, .sheep3, .sheep4, .sheep5, .sheep6, .sheep7, .sheep8, .sheep9, .sheep10{
+    width: 11.67vw;
+    height: 16.11vw;
+}
+.sheep11, .sheep12, .sheep13, .sheep14, .sheep15, .sheep16, .sheep17, .sheep18, .sheep19, .sheep20, .sheep21, .sheep22{
+    width: 11.67vw;
+    height: 16.11vw;
+}
+
+.sheepcounting{
+    width: 100%;
+}
+
+.sheep22{
+    position: absolute;
+    margin-top: 15vw;
+    margin-left: 1vw;
+}
+.sheep21{
+    position: absolute;
+    margin-top: 14vw;
+    margin-left: 8vw;
+}
+.sheep20{
+    position: absolute;
+    margin-top: 15vw;
+    margin-left: 16vw;
+}
+.sheep19{
+    position: absolute;
+    margin-top: 18vw;
+    margin-left: 25vw;
+}
+.sheep18{
+    position: absolute;
+    margin-top: 17vw;
+    margin-left: 34vw;
+}
+.sheep17{
+    position: absolute;
+    margin-top: 16vw;
+    margin-left: 40vw;
+}
+.sheep16{
+    position: absolute;
+    margin-top: 16.5vw;
+    margin-left: 47vw;
+}.sheep15{
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 3vw;
+}
+.sheep14{
+    position: absolute;
+    margin-top: 8vw;
+    margin-left: 12vw;
+}
+.sheep13{
+    position: absolute;
+    margin-top: 6vw;
+    margin-left: 20vw;
+}
+.sheep12{
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 27vw;
+}
+.sheep11{
+    position: absolute;
+    margin-top: 8vw;
+    margin-left: 36vw;
+}
+.sheep10{
+    position: absolute;
+    margin-top: -2vw;
+    margin-left: 1vw;
+}
+.sheep9{
+    position: absolute;
+    margin-top: -0.5vw;
+    margin-left: 6vw;
+}
+.sheep8{
+    position: absolute;
+    margin-top: -1vw;
+    margin-left: 14vw;
+}
+.sheep7{
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 22vw;
+}
+.sheep6{
+    position: absolute;
+    margin-top: -2vw;
+    margin-left: 29vw;
+}
+.sheep5{
+    position: absolute;
+    margin-top: 0vw;
+    margin-left: 38vw;
+}
+.sheep4{
+    position: absolute;
+    margin-top: 3vw;
+    margin-left: 33vw;
+}
+.sheep3{
+    position: absolute;
+    margin-top: 7vw;
+    margin-left: 47vw;
+}
+.sheep2{
+    position: absolute;
+    margin-top: -2vw;
+    margin-left: 46vw;
+}
+.sheep1{
+    position: absolute;
+    margin-top: 3vw;
+    margin-left: 43vw;
+}
+
+/* летающая овца */
+.anim2_2{
+    width: 40.76vw;
+    height: 66.53vw;
+    z-index: 999;
+    background-color: #ffffff;
+}
+
+.fly_sheep{
+    width: 16.04vw;
+    height: 12.64vw;
+    margin-top: 5vw;
+    margin-left: 0.1vw;
+    position: absolute;
+    animation: fly_sheep 6s linear infinite
+}
+
+@keyframes fly_sheep{
+    0%{transform: translate(-1.5vw,-6vw);}
+    20%{transform: translate(24vw, 15vw);}
+    40%{transform: translate(13vw,47vw);}
+    60%{transform: translate(-1.5vw,36.5vw);}
+    80%{transform: translate(25vw,13vw);}
+    100%{transform: translate(-1.5vw,-6vw);}
+}
+.fly_sheep img{
+    width: 100%;
+}
+
+.text3{
+    width: 31.39vw;
+    height: 13.6vw;
+    top: 85.5vw;
+    left: 0.5vw;
+    position: absolute;
+    z-index: 1000;
+    transform: rotate(7deg);
+    background-image: url(../img/plashka3.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.text3 p{
+    color: #F25CC0;
+    font-size: 1.53vw;
+    margin-top: 4vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text3:hover{
+    transform: rotate(-7deg);
+}
+
+/* прыгающая овечка */
+.secondblock{
+    width: 100%;
+    height: 37.50vw;
+    display: block;
+    position: relative;
+}
+.anim3{
+    width: 99vw;
+    height: 37.50vw;
+    z-index: 999;
+    background-color: #B9C1FF;
+    
+}
+#sheepjump{
+    width: 10.69vw;
+    height: 9.65vw;
+    background-image: url(../img/sheepjump.svg);
+    background-size: 10.69vw 9.65vw;
+    position: relative;
+    top: 25vw;
+    left: 15vw;
+}
+
+#tree{
+    width: 9.65vw;
+    height: 7.43vw;
+    background-image: url(../img/tree1.svg);
+    background-size: 9.65vw 7.43vw;
+    position: relative;
+    top: 17.5vw;
+    left: 90vw;
+    animation: treemov 2s infinite linear;
+}
+
+@keyframes treemov{
+    0%{left: 80vw;}
+    100%{left: -20vw;}
+}
+
+.jump{
+    animation: jump 0.7s linear;
+}
+
+@keyframes jump{
+    0%{top: 25vw;}
+    30%{top: 10vw;}
+    50%{top: 2vw;}
+    80%{top: 10vw;}
+    100%{top: 25vw;}
+}
+
+.text4{
+    width: 31.39vw;
+    height: 13.99vw;
+    top: -2vw;
+    left: 67vw;
+    position: absolute;
+    z-index: 1000;
+    transform: rotate(-7deg);
+    background-image: url(../img/plashka4.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.text4 p{
+    color: #8B85FF;
+    font-size: 1.53vw;
+    margin-top: 4vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text4:hover{
+    transform: rotate(7deg);
+}
+
+
+.thirdblock{
+    width: 100%;
+    height: 69.49vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.anim4{
+    width: 40.76vw;
+    height: 69.49vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.anim4_1{
+    width: 40.76vw;
+    height: 47.96vw;
+    display: flex;
+    justify-content: center;
+    background-color: #F7ADF8;
+}
+.anim4_1 img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.anim4_2{
+    width: 40.76vw;
+    height: 21.53vw;
+    display: flex;
+    justify-content: center;
+    background-color: #B9C1FF;
+}
+.anim4_2 img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.leave{
+    width: 27.07vw;
+    height: 6.39vw;
+    margin-top: 5vw;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.leave img{
+    width: 8.33vw;
+    height: 6.39vw;
+}
+
+.anim5{
+    width: 58.24vw;
+    height: 70.49vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.anim5_1{
+    width: 58.24vw;
+    height: 26.43vw;
+    /* display: flex;
+    justify-content: center; */
+}
+.anim5_1 img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.anim5_2{
+    width: 58.24vw;
+    height: 43.06vw;
+    display: flex;
+    justify-content: center;
+}
+.anim5_3{
+    width: 37.68vw;
+    height: 43.06vw;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+.colorsheep{
+    width: 33.89vw;
+    height: 29.03vw;
+    margin-top: 11vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.greensheep{
+    width: 12.71vw;
+    height: 11.74vw;
+}
+.greensheepjump{
+    animation: greensheepjump 0.3s cubic-bezier(0.26, 0.5, 0.57, 1.05)  alternate both;
+}
+
+@keyframes greensheepjump{
+    0% {transform: translateY(0);}
+    50%{transform: translateY(-4vw);}
+    100%{transform: translateY(0vw);}
+}
+
+
+.pinksheepjump{
+    animation: pinksheepjump 0.6s cubic-bezier(0.26, 0.5, 0.57, 1.05)  alternate both;
+}
+
+@keyframes pinksheepjump{
+    0% {transform: translateY(0);}
+    33%{transform: translateY(-4vw);}
+    66%{transform: translateY(0vw);}
+    100%{transform: translateX(20vw);}
+
+}
+
+.purplesheep{
+    width: 14.58vw;
+    height: 13.13vw;
+}
+.pinksheep{
+    width: 14.58vw;
+    height: 11.94vw;
+}
+.lightpinksheep{
+    width: 12.71vw;
+    height: 11.74vw;
+    margin-top: 1.5vw;
+}
+
+.anim5_4{
+    width: 20.63vw;
+    height: 43.06vw;
+    display: flex;
+    justify-content: center;
+    background-color: #8B85FF;
+    z-index: 1000;
+}
+
+/* меняющиеся глаза */
+.eyes{
+    width: 14.03vw;
+    height: 35.83vw;
+    margin-top: 3.5vw;
+    margin-left: 1vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.eyes1{
+    width: 14.03vw;
+    height: 6.65vw;
+}
+.bg1{
+    background-image: url(../img/eyes1.svg);
+    background-size: 100%;
+}
+.bg1_1{
+    background-image: url(../img/eyes1_1.svg);
+    background-size: 100%;
+}
+
+.eyes2{
+    width: 14.03vw;
+    height: 6.68vw;
+}
+.bg2{
+    background-image: url(../img/eyes2.svg);
+    background-size: 100%;
+}
+.bg2_2{
+    background-image: url(../img/eyes2_2.svg);
+    background-size: 100%;
+}
+
+.eyes3{
+    width: 14.03vw;
+    height: 6.66vw;
+}
+.bg3{
+    background-image: url(../img/eyes3.svg);
+    background-size: 100%;
+}
+.bg3_3{
+    background-image: url(../img/eyes3_3.svg);
+    background-size: 100%;
+}
+
+.eyes4{
+    width: 14.03vw;
+    height: 6.67vw;
+}
+.bg4{
+    background-image: url(../img/eyes4.svg);
+    background-size: 100%;
+}
+.bg4_4{
+    background-image: url(../img/eyes4_4.svg);
+    background-size: 100%;
+}
+
+
+.text5{
+    width: 29.44vw;
+    height: 12.15vw;
+    top: 24.5vw;
+    left: 41vw;
+    position: absolute;
+    z-index: 1000;
+    transform: rotate(-7deg);
+    background-image: url(../img/plashka2.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.text5 p{
+    color: #2AA185;
+    font-size: 1.53vw;
+    margin-top: 4vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text5:hover{
+    transform: rotate(7deg);
+}
+
+.text6{
+    width: 31.39vw;
+    height: 13.6vw;
+    top: 39vw;
+    left: 0.5vw;
+    position: absolute;
+    z-index: 1000;
+    transform: rotate(7deg);
+    background-image: url(../img/plashka3.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.text6 p{
+    color: #F25CC0;
+    font-size: 1.53vw;
+    margin-top: 4vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text6:hover{
+    transform: rotate(-7deg);
+}
+
+
+/* подвал */
+.lastblock{
+    width: 100%;
+    height: 6.39vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.name{
+    width: 33vw;
+    height: 6.39vw;
+    display: flex;
+    justify-content: center;
+    background-color: #2AA185;
+}
+.group{
+    width: 33vw;
+    height: 6.39vw;
+    display: flex;
+    justify-content: center;
+    background-color: #8B85FF;
+}
+.hse{
+    width: 33vw;
+    height: 6.39vw;
+    display: flex;
+    justify-content: center;
+    background-color: #F25CC0;
+}
+.lastblock p{
+    color: #ffffff;
+    font-size: 1.53vw;
+    margin-top: 2.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
